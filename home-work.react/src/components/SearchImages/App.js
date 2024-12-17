@@ -1,5 +1,5 @@
-import Searchbar from "./SearchImages/Searchbar/Searchbar";
-import SearchInfo from "./SearchImages/Gallery/Gallery";
+import Searchbar from "./Searchbar/Searchbar";
+import SearchInfo from "./Gallery/Gallery";
 import { useState } from "react";
 
 const App = () => {

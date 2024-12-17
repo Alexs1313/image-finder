@@ -1,16 +1,16 @@
-import { Grid } from "react-loader-spinner";
+import { TailSpin } from "react-loader-spinner";
 
 export const Loader = () => {
   return (
-    <Grid
-      height="100"
-      width="100"
-      color="#4fa94d"
-      ariaLabel="grid-loading"
-      radius="12.5"
-      wrapperStyle={{ justifyContent: "center", marginTop: "60px" }}
-      wrapperClass=""
+    <TailSpin
       visible={true}
+      height="80"
+      width="80"
+      color="#4fa94d"
+      ariaLabel="tail-spin-loading"
+      radius="1"
+      wrapperStyle={{}}
+      wrapperClass=""
     />
   );
 };
