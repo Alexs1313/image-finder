@@ -2,6 +2,7 @@
   "name": "home-work.react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexs1313.github.io/htmlfile/",
   "dependencies": {
     "@emotion/styled": "^11.13.5",
     "@testing-library/jest-dom": "^5.17.0",
